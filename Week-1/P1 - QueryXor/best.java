@@ -18,7 +18,7 @@ class Worst
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Worst run = new Worst();
+		Worst run = new Worst();				// not a good class name. change it.
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int[] inputArray = new int[n];
