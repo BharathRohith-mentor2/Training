@@ -1,5 +1,5 @@
 import java.util.*;
-class QueryXOR
+class QueryXOR			// prog works fine
 {
 	public int[] getXorArray(int[] inputArray){
         int len = inputArray.length;
