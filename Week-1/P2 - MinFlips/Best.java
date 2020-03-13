@@ -1,5 +1,5 @@
 import java.util.*;
-class Worst
+class Best
 {
 	public int getMinReplacements(int n)
     {
@@ -20,7 +20,7 @@ class Worst
 	public static void main (String[] args)
 	{
 		// your code goes here
-		Worst run  = new Worst();
+		best run  = new Best();
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int minReplacements = run.getMinReplacements( n );
